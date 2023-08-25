@@ -19,4 +19,4 @@ async def on_message(message):
         item = destiny_api_queries.get_random_item()
         await message.channel.send(item)
 
-client.run("MTE0NDQ3NTgwNzMzOTc3ODEwMA.G3UNXI.PSK0ujF0A16nNpmX_E3gpHiDtd403sdxLV9kAc")
+client.run("")
