@@ -1,7 +1,7 @@
 import random
 import requests
 
-api_key = '21bcd024fb544edfb3b3fb8f6bc419bc'
+api_key = ''
 
 def get_random_item():
     headers = {'X-API-Key': api_key}
