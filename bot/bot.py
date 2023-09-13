@@ -17,6 +17,12 @@ async def on_message(message):
 
     if message.content == "$item":
         item = destiny_api_queries.get_random_item()
-        await message.channel.send(item)
+        await message.channel.send(f'For you, {message.author}: {item}')
+
+    if message.content == "$joke":
+        item1 = destiny_api_queries.get_random_item()
+        item2 = destiny_api_queries.get_random_item()
+        item3 = destiny_api_queries.get_random_item()
+        await message.channel.send(f'She {item1} on my {item2} till {message.author} {item3}')
 
 client.run("")
